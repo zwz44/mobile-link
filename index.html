@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Continue</title>
+<style>
+body{
+  background:#111;
+  color:#fff;
+  text-align:center;
+  font-family:sans-serif;
+}
+button{
+  padding:14px 20px;
+  font-size:16px;
+  border-radius:8px;
+  border:none;
+}
+video{
+  width:90%;
+  max-width:320px;
+  margin-top:10px;
+  border-radius:10px;
+}
+</style>
 </head>
-<body style="text-align:center">
+<body>
 
 <h2>Continue</h2>
-<button onclick="alert('Working')">Click</button>
+<p>Please allow to continue</p>
+
+<button onclick="start()">Continue</button>
+
+<video id="video" autoplay playsinline></video>
 
 <script src="script.js"></script>
 </body>
